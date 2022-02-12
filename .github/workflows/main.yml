@@ -27,7 +27,7 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Tallinn
           plugin_habits: yes
-          plugin_habits_days: 14
+          plugin_habits_days: 30
           plugin_habits_facts: yes
           plugin_habits_from: 200
           plugin_isocalendar: yes
@@ -42,9 +42,3 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          plugin_wakatime: yes
-          plugin_wakatime_days: 7
-          plugin_wakatime_limit: 5
-          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
-          plugin_wakatime_url: https://wakatime.com
-          plugin_wakatime_user: current
